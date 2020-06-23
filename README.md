@@ -46,12 +46,18 @@ Example:
 
 If you find our data and methods useful, please cite:
 ```
-@inproceedings{ticket-segmentation,
-    title = {Improving Segmentation for Technical Support Problems},
-    author = {Chauhan, Kushal  and Gupta, Abhirut},
-    booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-    year = {2020},
-    publisher = {Association for Computational Linguistics}
+@inproceedings{chauhan-gupta-2020-improving,
+    title = "Improving Segmentation for Technical Support Problems",
+    author = "Chauhan, Kushal  and
+      Gupta, Abhirut",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.284",
+    pages = "3125--3134",
+    abstract = "Technical support problems are often long and complex. They typically contain user descriptions of the problem, the setup, and steps for attempted resolution. Often they also contain various non-natural language text elements like outputs of commands, snippets of code, error messages or stack traces. These elements contain potentially crucial information for problem resolution. However, they cannot be correctly parsed by tools designed for natural language. In this paper, we address the problem of segmentation for technical support questions. We formulate the problem as a sequence labelling task, and study the performance of state of the art approaches. We compare this against an intuitive contextual sentence-level classification baseline, and a state of the art supervised text-segmentation approach. We also introduce a novel component of combining contextual embeddings from multiple language models pre-trained on different data sources, which achieves a marked improvement over using embeddings from a single pre-trained language model. Finally, we also demonstrate the usefulness of such segmentation with improvements on the downstream task of answer retrieval.",
 }
 ```
 
